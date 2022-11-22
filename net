@@ -1,0 +1,4 @@
+# /etc/conf.d/net
+modules_wlp1s0="wpa_supplicant"
+wpa_supplicant_wlp1s0="-Dnl80211 -d -f /var/log/wpa_supplicant.log"
+config_wlp1s0="dhcp"
